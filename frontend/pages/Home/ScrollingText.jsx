@@ -7,7 +7,7 @@ function ScrollingText({ text }) {
    
 
     return (
-        <div className="overflow-hidden border-t-7 border-b-7 border-[#D4D29C] h-[130px] sm:h-[150px] md:h-[180px] lg:h-[225px] flex items-center">
+        <div className="overflow-hidden mt-5 border-t-7 border-b-7 border-[#D4D29C] h-[130px] sm:h-[150px] md:h-[180px] lg:h-[225px] flex items-center">
             <style>
                 {`
             @keyframes scroll-right {
