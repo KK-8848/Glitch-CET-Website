@@ -3,30 +3,30 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useMediaQuery } from "react-responsive";
 import ScrollingText from "../Home/ScrollingText";
 import "./TeamCards.css";
-import webteam1 from "../../assets/Web Team/Karthik.png";
-import webteam2 from "../../assets/Web Team/Parikshit.png";
-import webteam3 from "../../assets/Web Team/Robin.png";
-import webteam4 from "../../assets/Web Team/Rohan.png";
-import webteam5 from "../../assets/Web Team/Shravan.png";
-import execom1 from  "../../assets/Team/TeamCard0.png"
-import execom2 from  "../../assets/Team/TeamCard1.png"
-import execom3 from  "../../assets/Team/TeamCard2.png"
-import execom4 from  "../../assets/Team/TeamCard3.png"
-import execom5 from  "../../assets/Team/TeamCard4.png"
-import execom6 from  "../../assets/Team/TeamCard5.png"
-import execom7 from  "../../assets/Team/TeamCard6.png"
-import execom8 from  "../../assets/Team/TeamCard7.png"
-import execom9 from  "../../assets/Team/TeamCard8.png"
-import execom10 from  "../../assets/Team/TeamCard9.png"
-import execom11 from  "../../assets/Team/TeamCard10.png"
-import execom12 from  "../../assets/Team/TeamCard11.png"
-import execom13 from  "../../assets/Team/TeamCard12.png"
-import execom14 from  "../../assets/Team/TeamCard13.png"
-import execom15 from  "../../assets/Team/TeamCard14.png"
-import execom16 from  "../../assets/Team/TeamCard15.png"
-import execom17 from  "../../assets/Team/TeamCard16.png"
-import execom18 from  "../../assets/Team/TeamCard17.png"
-import execom19 from  "../../assets/Team/TeamCard18.png"
+import webteam1 from "../../assets/Web Team/Karthik.webp";
+import webteam2 from "../../assets/Web Team/Parikshit.webp";
+import webteam3 from "../../assets/Web Team/Robin.webp";
+import webteam4 from "../../assets/Web Team/Rohan.webp";
+import webteam5 from "../../assets/Web Team/Shravan.webp";
+import execom1 from  "../../assets/Team/TeamCard0.webp"
+import execom2 from  "../../assets/Team/TeamCard1.webp"
+import execom3 from  "../../assets/Team/TeamCard2.webp"
+import execom4 from  "../../assets/Team/TeamCard3.webp"
+import execom5 from  "../../assets/Team/TeamCard4.webp"
+import execom6 from  "../../assets/Team/TeamCard5.webp"
+import execom7 from  "../../assets/Team/TeamCard6.webp"
+import execom8 from  "../../assets/Team/TeamCard7.webp"
+import execom9 from  "../../assets/Team/TeamCard8.webp"
+import execom10 from  "../../assets/Team/TeamCard9.webp"
+import execom11 from  "../../assets/Team/TeamCard10.webp"
+import execom12 from  "../../assets/Team/TeamCard11.webp"
+import execom13 from  "../../assets/Team/TeamCard12.webp"
+import execom14 from  "../../assets/Team/TeamCard13.webp"
+import execom15 from  "../../assets/Team/TeamCard14.webp"
+import execom16 from  "../../assets/Team/TeamCard15.webp"
+import execom17 from  "../../assets/Team/TeamCard16.webp"
+import execom18 from  "../../assets/Team/TeamCard17.webp"
+import execom19 from  "../../assets/Team/TeamCard18.webp"
 
 export default function Execom() {
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -53,7 +53,7 @@ export default function Execom() {
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat mt-3"
                     style={{
                         backgroundImage: "url('/bgtest.png')",
-                        opacity: 0.8,
+                        opacity: 1,
                     }}
                 ></div>
                 <div className="relative text-center space-y-4 z-10 max-w-4xl mx-auto px-4">
@@ -74,10 +74,10 @@ export default function Execom() {
 
             {/* Scrolling Team Cards */}
             <div className="team-scroll-wrapper">
-                <div className="flex items-center mb-10">
-                    <h1 className="text-[#ED246D] text-5xl font-bold  " style={{ fontFamily: 'Morton' }}>//</h1>
-                    <h1 className="text-white text-5xl font-bold  " style={{ fontFamily: 'Morton' }}> GLITCH </h1>
-                    <h1 className="text-[#ED246D] text-5xl font-bold ml-4 " style={{ fontFamily: 'Morton' }}>EXECOM</h1>
+                <div className="flex items-center mb-10 ">
+                    <h1 className="text-[#ED246D] md:text-5xl text-[25px] font-bold  " style={{ fontFamily: 'Morton' }}>//</h1>
+                    <h1 className="text-white md:text-5xl text-[25px]  font-bold  " style={{ fontFamily: 'Morton' }}> GLITCH </h1>
+                    <h1 className="text-[#ED246D] md:text-5xl text-[25px] font-bold ml-4 " style={{ fontFamily: 'Morton' }}>EXECOM</h1>
                 </div>
                 <div className="team-scroll-container">
                     {duplicatedTeamCards.map((cardSrc, index) => (
@@ -90,10 +90,10 @@ export default function Execom() {
 
             {/* Web Team Section */}
             <div className="team-scroll-wrapper">
-                <div className="flex items-center mb-10">
-                    <h1 className="text-[#ED246D] text-5xl font-bold" style={{ fontFamily: 'Morton' }}>//</h1>
-                    <h1 className="text-white text-5xl font-bold" style={{ fontFamily: 'Morton' }}> WEB </h1>
-                    <h1 className="text-[#ED246D] text-5xl font-bold ml-4" style={{ fontFamily: 'Morton' }}>TEAM</h1>
+                <div className="flex items-center mb-0">
+                    <h1 className="text-[#ED246D] md:text-5xl text-3xl font-bold" style={{ fontFamily: 'Morton' }}>//</h1>
+                    <h1 className="text-white md:text-5xl text-3xl font-bold" style={{ fontFamily: 'Morton' }}> WEB </h1>
+                    <h1 className="text-[#ED246D] md:text-5xl text-3xl font-bold ml-4" style={{ fontFamily: 'Morton' }}>TEAM</h1>
                 </div>
                 <div className="web-team-container">
                     {webTeamMembers.map((member, index) => (

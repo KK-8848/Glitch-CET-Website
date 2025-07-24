@@ -19,26 +19,25 @@ export default function Upcoming() {
 
     return (
         <div>
-            {/* Hero Section */}
-            <div className="relative p-4 sm:p-6 lg:p-8 h-screen flex items-center justify-center bg-[#0B0C1B] overflow-hidden">
+            {/* Hero Section - Updated to match Execom.jsx */}
+            <div className="relative p-4 sm:p-6 lg:p-8 h-screen flex items-center justify-center overflow-hidden">
                 <div
-                    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+                    className="absolute inset-0 bg-cover bg-center bg-no-repeat mt-3"
                     style={{
-                        backgroundImage: "url('/bgevents.svg')",
-                        mixBlendMode: "overlay",
-                        opacity: 0.4,
-                        filter: "contrast(0.8)"
+                        backgroundImage: "url('/bgtest.png')",
+                        opacity: 1,
                     }}
                 ></div>
                 <div className="relative text-center space-y-4 z-10 max-w-4xl mx-auto px-4">
-                    <img
-                        className="w-64 sm:w-80 md:w-96 lg:w-2xl xl:w-3xl mx-auto"
-                        src="/glitch_font.png"
-                        alt="Glitch Logo"
-                    />
                     <h1
-                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-[#ED246D]"
-                        style={{ fontFamily: "Morton" }}
+                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-white"
+                        style={{ fontFamily: 'Morton' }}
+                    >
+                        UPCOMING
+                    </h1>
+                    <h1
+                        className="text-5xl sm:text-8xl md:text-9xl lg:text-8xl xl:text-9xl text-[#ED246D]"
+                        style={{ fontFamily: 'Morton' }}
                     >
                         EVENTS
                     </h1>
